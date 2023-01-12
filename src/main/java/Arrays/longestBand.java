@@ -1,5 +1,7 @@
 package Arrays;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.HashSet;
 
 public class longestBand {
@@ -8,7 +10,7 @@ public class longestBand {
         System.out.println(getLongestBand(arr));
     }
 
-    private static int getLongestBand(int[] arr) {
+    private static int getLongestBand(int @NotNull [] arr) {
         int cnt=0;
         int maxcnt=0;
         HashSet<Integer> mainmap= new HashSet();

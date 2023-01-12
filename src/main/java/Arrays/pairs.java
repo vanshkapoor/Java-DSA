@@ -1,7 +1,7 @@
 package Arrays;
 
 //arr of N integers and target value S.
-//using unorder set DS.
+//using unordered set DS.
 //step 1 : loop through current array and add it in set if (num-sum) is not there
 //
 public class pairs {

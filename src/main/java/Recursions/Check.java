@@ -5,6 +5,8 @@ public class Check {
         fn(5);
     }
 
+
+
     private static int fn(int i) {
         if(i==0)
         {
