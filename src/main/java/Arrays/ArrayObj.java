@@ -8,4 +8,6 @@ public class ArrayObj {
         this.name = name;
         this.id = id;
     }
+
+
 }
