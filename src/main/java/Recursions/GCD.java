@@ -25,7 +25,7 @@ public class GCD {
             return a;
         }
 
-        if(a>b) // 6,3
+        if(a>b) // 18, 10 -> 8,10 -> 8,2 -> 6,2 -> 4,2 -> 2,2
             return getSimpleGCD(a-b, b);
         return getSimpleGCD(a, b-a);
     }

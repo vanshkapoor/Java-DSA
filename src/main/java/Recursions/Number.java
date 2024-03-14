@@ -44,7 +44,7 @@ public class Number {
 
         System.out.println(obj.getSumOfNumbers(400));
 
-        obj.decimalToBinary(11);
+        obj.decimalToBinary(6);
         System.out.println(numb);
 
     }

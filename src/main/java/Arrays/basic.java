@@ -14,6 +14,10 @@ public class basic {
 
 
     public static void main(String[] args) {
+
+        ArrayList<Integer> ar1 = new ArrayList<>();
+        System.out.println(ar1.size());
+
         ArrayList<Integer> arr=new ArrayList<>();
         arr.add(2);
         arr.add(1);
@@ -23,7 +27,8 @@ public class basic {
 
         System.out.println(arr.contains(2));
 
-
+        int[] arr1 = new int[10];
+        int len = arr1.length;
         arr.remove(2);
 
 
@@ -31,18 +36,6 @@ public class basic {
         {
             System.out.println(i);
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

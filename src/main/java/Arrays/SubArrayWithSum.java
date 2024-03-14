@@ -35,6 +35,8 @@ public class SubArrayWithSum {
 
         ArrayList<Integer> finalArr = new ArrayList<>();
         finalArr.add(-1);
+        finalArr.contains(0);
+//        finalArr.remove(0);
 //        return finalArr;
 
 

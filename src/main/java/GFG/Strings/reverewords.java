@@ -3,6 +3,20 @@ package GFG.Strings;
 import java.util.Stack;
 
 public class reverewords {
+
+    public static String reverseWords(String s) {
+        String rev="";
+        int ln = s.length();
+        
+        for (int i = ln - 1; i >= 0; i--)
+        {
+            char curr = s.charAt(i);
+            rev= rev + String.valueOf(curr);
+        }
+        return rev;
+    } 
+
+
     public static void main(String[] args) {
         String s = "I am.vansh kapoor";
 
@@ -21,5 +35,19 @@ public class reverewords {
             finalstr+=news+" ";
         }
         System.out.println(finalstr.trim());
+
+
+        System.out.println(reverseWords("GeeksForGeeks gfg"));
+
+
+
+
+
+
+
+
+
+
+
     }
 }
